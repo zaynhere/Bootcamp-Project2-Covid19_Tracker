@@ -1,38 +1,39 @@
-.App {
+.app {
+  background-image: url(./images/covid-world-map.png);
+}
+.logo{
   text-align: center;
+  margin-top: 20px;
+}
+.MuiBottomNavigationAction-label{
+  color: rgba(255, 255, 255, 0.966);
+}
+.country{
+  margin-top: 40px;
+}
+.WithStyles\(ForwardRef\(TableCell\)\)-head-14{ 
+  background: #ef842f  !important
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MuiAppBar-colorPrimary{
+  background-color: #2a2a289b !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.chart{
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
   color: white;
+  font-size: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 414px){
+  .chart{
+    width: 350px;
+    margin: 150px auto;
+    font-size: 24px;
+  }
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
